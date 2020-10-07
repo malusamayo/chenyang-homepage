@@ -1,12 +1,13 @@
 ---
+title: Chenyang Yang
+role: Undergraduate in Computer Science
+avatar_filename: timg.jpg
 organizations:
   - name: Peking University
     url: ""
 superuser: true
 authors:
   - admin
-title: Chenyang Yang
-role: Undergraduate in Computer Science
 bio: My research interests include software engineering and programming languages
 interests:
   - Software engineering and Programming Languages
