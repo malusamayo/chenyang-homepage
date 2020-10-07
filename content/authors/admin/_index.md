@@ -6,27 +6,24 @@ superuser: true
 authors:
   - admin
 title: Chenyang Yang
-role: Undergraduate in Computer Science, Peking University
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+role: Undergraduate in Computer Science
+bio: My research interests include software engineering and programming languages
 interests:
-  - Software engineering
-  - Programming Languages and Operating Systems
+  - Software engineering and Programming Languages
 social:
   - icon: github
     icon_pack: fab
     link: https://github.com/malusamayo
 education:
   courses:
-    - course: BSc in Artificial Intelligence
+    - course: BSc in Computer Science, 2021 (expected)
       institution: Peking University
-      year: 2021
+      year: ""
 user_groups:
   - ""
 highlight_name: false
 email: stevenyang@pku.edu.cn
 ---
+I am now a final-year undergraduate in Peking University advised by Prof. [Yingfei Xiong](https://xiongyingfei.github.io/).  Currently, I am also working with Prof. [Christian Kästner](https://www.cs.cmu.edu/~ckaestne/) at Carnegie Mellon University and Prof. [Shurui Zhou](https://www.eecg.utoronto.ca/~shuruiz/#page-top) at University of Toronto.
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+My research interests lie primarily in the field of software engineering and programming languages, with a focus on program analysis and its application to other fields of computer science, including machine learning, operating system and human-computer interaction. I am applying for a PhD position in this fall.
