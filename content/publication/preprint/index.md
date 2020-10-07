@@ -1,8 +1,9 @@
 ---
-title: "An example preprint / working paper"
+title: "Accelerating Program Analyses in Datalog by Merging
+Library Facts"
 authors:
 - admin
-date: "2019-04-07T00:00:00Z"
+date: "2020-10-07T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -18,19 +19,38 @@ publication_types: ["3"]
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Static program analysis uses sensitivity to balance between precision and scalability. However, finer sensitivity
+does not necessarily lead to more precise results but may reduce scalability. Recently, a number of approaches
+have been proposed to finely tune the sensitivity for different program parts. However, these approaches are
+usually designed for a specific program analysis, and its abstraction adjustment is not fine enough.
+In this paper we propose a new technique, 4DM, to tune abstractions for Datalog analyses. 4DM merges
+values in a domain to abstract them, allowing fine-grained sensitivity tuning. 4DM uses a data-driven algorithm
+for automatically learning a merging strategy for a library from a training set of programs. Unlike existing
+approaches that rely on the properties of a certain analysis, our learning algorithm works for a wide range
+of Datalog analyses. We have evaluated our approach on a points-to analysis and a liveness analysis, on the
+DaCapo benchmark suite. Our evaluation results suggest that our technique achieves a significant speedup
+and negligible precision loss, reaching a good balance.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-
+summary: Static program analysis uses sensitivity to balance between precision and scalability. However, finer sensitivity
+does not necessarily lead to more precise results but may reduce scalability. Recently, a number of approaches
+have been proposed to finely tune the sensitivity for different program parts. However, these approaches are
+usually designed for a specific program analysis, and its abstraction adjustment is not fine enough.
+In this paper we propose a new technique, 4DM, to tune abstractions for Datalog analyses. 4DM merges
+values in a domain to abstract them, allowing fine-grained sensitivity tuning. 4DM uses a data-driven algorithm
+for automatically learning a merging strategy for a library from a training set of programs. Unlike existing
+approaches that rely on the properties of a certain analysis, our learning algorithm works for a wide range
+of Datalog analyses. We have evaluated our approach on a points-to analysis and a liveness analysis, on the
+DaCapo benchmark suite. Our evaluation results suggest that our technique achieves a significant speedup
+and negligible precision loss, reaching a good balance.
 tags:
 - Source Themes
 featured: false
 
 links:
 - name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+  url: ''
+url_pdf: ''
 url_code: '#'
 url_dataset: '#'
 url_poster: '#'
@@ -42,7 +62,7 @@ url_video: '#'
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
